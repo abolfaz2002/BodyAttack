@@ -1,0 +1,69 @@
+@font-face {
+    font-family: IRYekan;
+    src: url(./Assets/Font/IRYekan.ttf) , url(./Assets/Font/IRYekanBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.App{
+    font-family: IRYekan;
+    font-size: 14px;
+    direction: rtl;
+    height: 100%;
+    background-color: darkslategrey;
+}
+
+.coachs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-direction:; */
+}
+
+.coach{
+    margin: 10px;
+}
+
+.coach-image{
+    padding: 10px;
+}
+
+.coachpage{
+    width: 100%;
+    height: 120vh;
+    padding: 5px;
+    overflow: scroll;
+    background-color: #139e85;
+}
+
+.coach-information{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: white;
+    /* 34ebbd */
+    border-radius: 5px;
+}
+
+.a{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.lowlevel-learn{
+    overflow: scroll;
+}
+
+.demo-loadmore-list{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+:where(.css-dev-only-do-not-override-nllxry).ant-list .ant-list-item .ant-list-item-meta .ant-list-item-meta-content{
+    flex: 0;
+    width: 55px;
+}
